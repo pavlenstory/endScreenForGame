@@ -1,11 +1,11 @@
-import * as React from 'react';
 import BasicTable from "./components/BasicTable/BasicTable";
+import { teamElement } from "./utils/team";
 
-function App() {
+function App({team}: {team: Array<teamElement>} ) {
   return (
     <>
-        <BasicTable isDefeat={true}/>
-        <BasicTable isDefeat={false}/>
+      <BasicTable isDefeat={true} team={team}/>
+      <BasicTable isDefeat={false} team={team}/>
     </>
   );
 }
