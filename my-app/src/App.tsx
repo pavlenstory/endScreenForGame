@@ -1,7 +1,7 @@
 import BasicTable from "./components/BasicTable/BasicTable";
-import { teamElement } from "./utils/team";
+import { TeamElement } from "./utils/team";
 
-function App({ team }: { team: Array<teamElement> }) {
+function App({ team }: { team: Array<TeamElement> }) {
   return (
     <>
       <BasicTable isDefeat team={team} />

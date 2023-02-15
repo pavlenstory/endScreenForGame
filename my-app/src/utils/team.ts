@@ -1,4 +1,4 @@
-export type teamElement = {
+export type TeamElement = {
   id: number;
   nickname: string;
   score: number;
@@ -14,7 +14,7 @@ function createData(
   isAlive: boolean,
   totalKills: number,
   totalDeads: number
-): teamElement {
+): TeamElement {
   return { id, nickname, score, isAlive, totalKills, totalDeads };
 }
 

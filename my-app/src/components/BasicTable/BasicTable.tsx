@@ -3,7 +3,7 @@ import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
 import TableRow from "@mui/material/TableRow";
 import CustomTooltip from "../Tooltip/Tooltip";
-import { teamElement } from "../../utils/team";
+import { TeamElement } from "../../utils/team";
 import {
   StyledTableContainer,
   StyledTableCell,
@@ -13,7 +13,7 @@ import { TableHead } from "@mui/material";
 
 type Props = {
   isDefeat: boolean;
-  team: Array<teamElement>;
+  team: Array<TeamElement>;
 };
 
 export default function BasicTable({ isDefeat, team }: Props) {
