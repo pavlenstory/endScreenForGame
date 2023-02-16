@@ -2,6 +2,7 @@ import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
 import TableRow from "@mui/material/TableRow";
+import { TableHead } from "@mui/material";
 import CustomTooltip from "../Tooltip/Tooltip";
 import { TeamElement } from "../../utils/types";
 import {
@@ -9,7 +10,6 @@ import {
   StyledTableCell,
   StyledTableRow,
 } from "./BasicTable.module";
-import { TableHead } from "@mui/material";
 
 type Props = {
   isDefeat: boolean;
