@@ -5,8 +5,8 @@ import secondTeam from "./mockData/secondTeam";
 function App() {
   return (
     <>
-      <BasicTable isDefeat team={firstTeam} />
-      <BasicTable isDefeat={false} team={secondTeam} />
+      <BasicTable isDefeat={false} team={firstTeam} />
+      <BasicTable isDefeat team={secondTeam} />
     </>
   );
 }
