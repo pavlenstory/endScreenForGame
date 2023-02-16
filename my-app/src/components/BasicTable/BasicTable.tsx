@@ -3,13 +3,14 @@ import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
 import TableRow from "@mui/material/TableRow";
 import CustomTooltip from "../Tooltip/Tooltip";
-import { TeamElement } from "../../utils/team";
+
 import {
   StyledTableContainer,
   StyledTableCell,
   StyledTableRow,
 } from "./BasicTable.module";
 import { TableHead } from "@mui/material";
+import { TeamElement } from "../../utils/types";
 
 type Props = {
   isDefeat: boolean;

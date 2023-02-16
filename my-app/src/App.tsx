@@ -1,11 +1,12 @@
 import BasicTable from "./components/BasicTable/BasicTable";
-import { TeamElement } from "./utils/team";
+import firstTeam from "./mockData/firstTeam";
+import secondTeam from "./mockData/secondTeam";
 
-function App({ team }: { team: Array<TeamElement> }) {
+function App() {
   return (
     <>
-      <BasicTable isDefeat team={team} />
-      <BasicTable isDefeat={false} team={team} />
+      <BasicTable isDefeat team={firstTeam} />
+      <BasicTable isDefeat={false} team={secondTeam} />
     </>
   );
 }

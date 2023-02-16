@@ -1,24 +1,6 @@
-export type TeamElement = {
-  id: number;
-  nickname: string;
-  score: number;
-  isAlive: boolean;
-  totalKills: number;
-  totalDeads: number;
-};
+import { createData } from "../utils/createData";
 
-function createData(
-  id: number,
-  nickname: string,
-  score: number,
-  isAlive: boolean,
-  totalKills: number,
-  totalDeads: number
-): TeamElement {
-  return { id, nickname, score, isAlive, totalKills, totalDeads };
-}
-
-const team = [
+const secondTeam = [
   createData(1, "nickname  yoghurt", 159, true, 100, 98),
   createData(2, "Ice cream sandwich", 237, true, 43, 453),
   createData(3, "Eclair", 262, true, 4343, 43),
@@ -71,4 +53,4 @@ const team = [
   createData(50, "Ice cream sandwich", 237, true, 43, 453),
 ];
 
-export default team;
+export default secondTeam;
