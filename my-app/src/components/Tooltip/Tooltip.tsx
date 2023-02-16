@@ -3,12 +3,12 @@ import Tooltip from "@mui/material/Tooltip";
 
 type Props = {
   totalKills: number;
-  totalDeads: number;
+  totalDeaths: number;
   children: JSX.Element;
 };
 export default function CustomTooltip({
   totalKills,
-  totalDeads,
+  totalDeaths,
   children,
 }: Props) {
   return (
@@ -16,7 +16,7 @@ export default function CustomTooltip({
       title={
         <>
           <p>Total kills: {totalKills}</p>
-          <p>Total deaths: {totalDeads}</p>
+          <p>Total deaths: {totalDeaths}</p>
           <Button variant="contained" color="success">
             Add friend
           </Button>

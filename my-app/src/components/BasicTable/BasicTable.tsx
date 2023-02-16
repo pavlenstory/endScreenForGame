@@ -41,7 +41,7 @@ export default function BasicTable({ isDefeat, team }: Props) {
           {team.map((row, index) => (
             <CustomTooltip
               totalKills={row.totalKills}
-              totalDeads={row.totalDeads}
+              totalDeaths={row.totalDeaths}
               key={row.id}
             >
               <StyledTableRow>

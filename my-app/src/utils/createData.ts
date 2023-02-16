@@ -6,7 +6,7 @@ export function createData(
   score: number,
   isAlive: boolean,
   totalKills: number,
-  totalDeads: number
+  totalDeaths: number
 ): TeamElement {
-  return { id, nickname, score, isAlive, totalKills, totalDeads };
+  return { id, nickname, score, isAlive, totalKills, totalDeaths };
 }

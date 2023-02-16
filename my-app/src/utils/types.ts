@@ -4,5 +4,5 @@ export type TeamElement = {
   score: number;
   isAlive: boolean;
   totalKills: number;
-  totalDeads: number;
+  totalDeaths: number;
 };
