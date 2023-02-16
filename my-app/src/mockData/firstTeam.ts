@@ -28,6 +28,7 @@ const firstTeam = [
   createData(25, "nickname  yoghurt", 159, true, 100, 98),
   createData(26, "Ice4 cream sandwich", 237, false, 43, 453),
   createData(27, "Ecl46cake", 305, true, 34, 23),
+  createData(28, "Tanos", 3045, true, 344, 23),
   createData(29, "Gingerbread", 356, false, 67, 34),
   createData(30, "Ale78ex3", 36, true, 467, 334),
   createData(31, "Nam784ok", 1, true, 45, 4),
